@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Мини казино</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="casino-container">
+        <div class="slot-machine">
+            <div class="slot" id="slot1">?</div>
+            <div class="slot" id="slot2">?</div>
+            <div class="slot" id="slot3">?</div>
+        </div>
+        <button id="spin-button">Крутить</button>
+    </div>
+
+    <div id="win-message">
+        <h1>Вы выиграли 52!</h1>
+    </div>
+
+    <!-- Подключаем библиотеку для конфетти и скрипты -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
